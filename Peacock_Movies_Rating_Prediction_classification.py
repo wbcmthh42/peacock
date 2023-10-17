@@ -11,6 +11,7 @@ from category_encoders import LeaveOneOutEncoder
 from sklearn.preprocessing import StandardScaler
 
 nltk.download('punkt')
+nltk.download('wordnet')
 lemmatizer = WordNetLemmatizer()
 warnings.filterwarnings('ignore')
 
