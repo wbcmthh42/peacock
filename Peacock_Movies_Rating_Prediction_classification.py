@@ -12,6 +12,7 @@ from category_encoders import LeaveOneOutEncoder
 from sklearn.preprocessing import StandardScaler
 
 nltk.download('punkt')
+nltk.download('stopwords')
 lemmatizer = WordNetLemmatizer()
 warnings.filterwarnings('ignore')
 all_stopwords = stopwords.words("english")
