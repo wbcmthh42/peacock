@@ -13,6 +13,7 @@ from sklearn.preprocessing import StandardScaler
 
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.download('wordnet')
 lemmatizer = WordNetLemmatizer()
 warnings.filterwarnings('ignore')
 all_stopwords = stopwords.words("english")
