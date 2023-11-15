@@ -17,6 +17,7 @@ nltk.download('wordnet')
 lemmatizer = WordNetLemmatizer()
 warnings.filterwarnings('ignore')
 all_stopwords = stopwords.words("english")
+all_stopwords.append('the')
 
 class data_prep():
     def __init__(self, datafile):
